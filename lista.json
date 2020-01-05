@@ -13,7 +13,7 @@ var pelis = [
    "Nombre": "Los increibles 2",
    "Genero": "Animacion",
    "Direccion": "Brad Bird"
- }
+ },
  {
    "Nombre": "Star Wars IV: Una nueva esperanza",
    "Genero": "Ciencia ficcion",
@@ -138,5 +138,5 @@ var pelis = [
    "Nombre": "El niño",
    "Genero": "Horror",
    "Direccion": "David Yarovesky"
- },
+ }
 ];
