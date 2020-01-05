@@ -1,0 +1,142 @@
+var pelis = [
+ {
+   "Nombre": "El señor de los anillos",
+   "Genero": "Accion",
+   "Direccion": "Peter Jackson"
+ },
+ {
+   "Nombre": "Regreso al Futuro",
+   "Genero": "Accion",
+   "Direccion": "Robert Zemeckis"
+ },
+ {
+   "Nombre": "Los increibles 2",
+   "Genero": "Animacion",
+   "Direccion": "Brad Bird"
+ }
+ {
+   "Nombre": "Star Wars IV: Una nueva esperanza",
+   "Genero": "Ciencia ficcion",
+   "Direccion": "George Lucas"
+ },
+ {
+   "Nombre": "Super 8",
+   "Genero": "Ciencia ficcion",
+   "Direccion": "J. J. Abrams"
+ },
+ {
+   "Nombre": "En busca del arca perdida",
+   "Genero": "Accion-aventura",
+   "Direccion": "Steven Spielberg"
+ },
+ {
+   "Nombre": "Vengadores",
+   "Genero": "Superhéroes",
+   "Direccion": "Joss Whedon"
+ },
+ {
+   "Nombre": "Megamind",
+   "Genero": "Animacion",
+   "Direccion": "Tom McGrath"
+ },
+ {
+   "Nombre": "The Last: Naruto The Movie",
+   "Genero": "Anime",
+   "Direccion": "Tsuneo Kobayashi"
+ },
+ {
+   "Nombre": "La cabaña en el bosque",
+   "Genero": "Comedia horror",
+   "Direccion": "Drew Goddard"
+ },
+  {
+   "Nombre": "Con la muerte en los talones",
+   "Genero": "Thriller",
+   "Direccion": "Alfred Hitchcock"
+ },
+ {
+   "Nombre": "El gigante de hierro",
+   "Genero": "Animacion",
+   "Direccion": "Brad Bird"
+ },
+ {
+   "Nombre": "Los caballeros de la mesa cuadrada",
+   "Genero": "Comedia",
+   "Direccion": "Terry Gilliam y Terry Jones"
+ },
+ {
+   "Nombre": "La princesa Mononoke",
+   "Genero": "Anime",
+   "Direccion": "Hayao Miyazaki"
+ },
+ {
+   "Nombre": "RoboCop",
+   "Genero": "Accion",
+   "Direccion": "Paul Verhoeven"
+ },
+ {
+   "Nombre": "Skyfall",
+   "Genero": "Accion",
+   "Direccion": "Sam Mendes"
+ },
+ {
+   "Nombre": "Batman",
+   "Genero": "Superhéroe",
+   "Direccion": "Tim Burton"
+ },
+ {
+   "Nombre": "El amanecer de los muertos vivientes",
+   "Genero": "Horror",
+   "Direccion": "George Romero"
+ },
+ {
+   "Nombre": "Alien, el octavo pasajero",
+   "Genero": "Ciencia ficcion",
+   "Direccion": "Ridley Scott"
+ },
+ {
+   "Nombre": "Air Force One",
+   "Genero": "Accion",
+   "Direccion": "Wolfgang Petersen"
+ },
+ {
+   "Nombre": "28 días después",
+   "Genero": "Horror",
+   "Direccion": "Danny Boyle"
+ },
+ {
+   "Nombre": "Spiderman: Un nuevo universo",
+   "Genero": "Animacion/Superhéroe",
+   "Direccion": "Bob Persichetti, Peter Ramsey y Rodney Rothman"
+ },
+ {
+   "Nombre": "American History X",
+   "Genero": "Drama",
+   "Direccion": "Tony Kaye"
+ },
+ {
+   "Nombre": "Sillas de montar calientes",
+   "Genero": "Comedia",
+   "Direccion": "Mel Brooks"
+ },
+ {
+   "Nombre": "Lincoln",
+   "Genero": "Historica",
+   "Direccion": "Steven Spielberg"
+ },
+ {
+   "Nombre": "Hasta que llego su hora",
+   "Genero": "Western",
+   "Direccion": "Sergio Leone"
+ },
+ {
+   "Nombre": "La jungla de cristal",
+   "Genero": "Accion",
+   "Direccion": "John McTiernan"
+ },
+ {
+   "Nombre": "El niño",
+   "Genero": "Horror",
+   "Direccion": "David Yarovesky"
+ },
+];
