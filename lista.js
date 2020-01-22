@@ -1,27 +1,5 @@
-var imagenAccion = document.createElement("img");
-imagenAccion.setAttribute("id","Accion")
-var imagenAnimacion = document.createElement("img");
-imagenAnimacion.setAttribute("id","Animacion")
-var imagenScifi = document.createElement("img");
-imagenScifi.setAttribute("id","Ciencia ficcion")
-var imagenAnime = document.createElement("img");
-imagenAnime.setAttribute("id","Anime")
-var imagenAventura = document.createElement("img");
-imagenAventura.setAttribute("id","Aventura")
-var imagenHorror = document.createElement("img");
-imagenHorror.setAttribute("id","Horror")
-var imagenSuper = document.createElement("img");
-imagenSuper.setAttribute("id","Superheroes")
-var imagenThriller = document.createElement("img");
-imagenThriller.setAttribute("id","Thriller")
-var imagenComedia = document.createElement("img");
-imagenComedia.setAttribute("id","Comedia")
-var imagenDrama = document.createElement("img");
-imagenDrama.setAttribute("id","Drama")
-var imagenWest = document.createElement("img");
-imagenWest.setAttribute("id","Western")
-var imagenHist = document.createElement("img");
-imagenHist.setAttribute("id","Historica")
+var imagenes = ["Accion.png","Animacion.png","Anime.jpeg","Aventura.png","Comedia.png","Drama.png","Historica.jpg","Horror.png","Scifi.png","Superheroe.jpg","Thriller.png","Western.png"]
+var Generos = ["Accion","Animacion","Anime","Aventura","Comedia","Drama","Historica","Horror","Ciencia ficcion","Superheroe","Thriller","Western"]
 var peliculas = [
   {
     "Nombre": "El señor de los anillos",
@@ -55,7 +33,7 @@ var peliculas = [
   },
   {
     "Nombre": "Vengadores",
-    "Genero": "Superheroes",
+    "Genero": "Superheroe",
     "Direccion": "Joss Whedon"
   },
   {
@@ -105,7 +83,7 @@ var peliculas = [
   },
   {
     "Nombre": "Batman",
-    "Genero": "Superheroes",
+    "Genero": "Superheroe",
     "Direccion": "Tim Burton"
   },
   {
@@ -130,7 +108,7 @@ var peliculas = [
   },
   {
     "Nombre": "Spiderman: Un nuevo universo",
-    "Genero": "Superheroes",
+    "Genero": "Superheroe",
     "Direccion": "Bob Persichetti, Peter Ramsey y Rodney Rothman"
   },
   {
@@ -169,7 +147,9 @@ var lista = document.createElement("ul");
 for (i in peliculas) {
   var pelicula = peliculas[i];
   var linea = document.createElement("li");
-  var imagen = document.getElementById(pelicula["Genero"]);
+  var imagen = document.createElement("img");
+  var value = imagenes[Generos.indexOf(pelicula["Genero"])];
+  imagen.setAttribute("src",value)
   linea.innerText = pelicula["Nombre"] + " (" + pelicula["Direccion"] + ") ";
   linea.append(imagen);
   lista.appendChild(linea);
