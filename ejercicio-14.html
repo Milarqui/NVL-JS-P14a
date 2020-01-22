@@ -3,21 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Peliculas</title>
-    <script>
-      $(function() {
-        $.getJSON("lista.json",function(data) {
-          $.each(data.pelis,function(i,f) {
-            var listRow = "<li>" + f.Nombre + " (" + f.Director + ") " + "<img src='" + f.Genero + ".jpg'></li>";
-            $(listRow).appendTo("#userData");
-          }
-        }
-      });
-    </script>
   </head>
   <body>
-    <div>
-      <ul id="userdata">
-      </ul>
-    </div>
+    <script src="lista.js"></script>
   </body>
 </html>
