@@ -1,5 +1,17 @@
-var imagenes = ["Accion.png","Animacion.png","Anime.jpeg","Aventura.png","Comedia.png","Drama.png","Historica.jpg","Horror.png","Scifi.png","Superheroe.jpg","Thriller.png","Western.png"]
-var Generos = ["Accion","Animacion","Anime","Aventura","Comedia","Drama","Historica","Horror","Ciencia ficcion","Superheroe","Thriller","Western"]
+var imagenes = {
+    "Accion": "Accion.png",
+    "Animacion": "Animacion.png",
+    "Anime": "Anime.jpeg",
+    "Aventura": "Aventura.png",
+    "Comedia": "Comedia.png",
+    "Drama": "Drama.png",
+    "Historica": "Historica.jpg",
+    "Horror": "Horror.png",
+    "Ciencia ficcion": "Scifi.png",
+    "Superheroe": "Superheroe.jpg",
+    "Thriller": "Thriller.png",
+    "Western": "Western.png"
+}
 var peliculas = [
   {
     "Nombre": "El señor de los anillos",
@@ -148,7 +160,7 @@ for (i in peliculas) {
   var pelicula = peliculas[i];
   var linea = document.createElement("li");
   var imagen = document.createElement("img");
-  var value = imagenes[Generos.indexOf(pelicula["Genero"])];
+  var value = imagenes[pelicula["Genero"]];
   imagen.setAttribute("src",value)
   linea.innerText = pelicula["Nombre"] + " (" + pelicula["Direccion"] + ") ";
   linea.append(imagen);
